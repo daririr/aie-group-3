@@ -1,0 +1,24 @@
+{
+  "experiment_id": "E3",
+  "dataset": "EMNIST",
+  "seed": 42,
+  "architecture": {
+    "input_dim": 784,
+    "hidden_dims": [
+      256,
+      128
+    ],
+    "num_classes": 47,
+    "dropout_p": 0.0,
+    "use_batchnorm": true
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 256
+  },
+  "results": {
+    "best_val_accuracy": 0.8490451388888889,
+    "best_val_loss": 0.4586556586954329
+  }
+}

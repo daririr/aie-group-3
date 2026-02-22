@@ -55,3 +55,10 @@ logs/
 *.tmp
 *.bak
 *.old
+# Виртуальные окружения
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Кэш данных (не грузить в git!)
+homeworks/*/data/
