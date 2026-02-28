@@ -1,5 +1,5 @@
 {
-  "experiment_id": "E3",
+  "experiment_id": "E4",
   "dataset": "EMNIST",
   "seed": 42,
   "architecture": {
@@ -15,10 +15,12 @@
   "training": {
     "optimizer": "Adam",
     "lr": 0.001,
-    "batch_size": 256
+    "batch_size": 256,
+    "early_stopping_patience": 5
   },
   "results": {
-    "best_val_accuracy": 0.8490451388888889,
-    "best_val_loss": 0.4586556586954329
+    "best_val_accuracy": 0.8465589887640449,
+    "best_val_loss": 0.4688828781749425,
+    "epochs_trained": 12
   }
 }
