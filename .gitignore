@@ -62,3 +62,10 @@ logs/
 
 # Кэш данных (не грузить в git!)
 homeworks/*/data/
+
+
+# Датасеты (не загружать в git!)
+homeworks/*/data/
+homeworks/*/data_pets/
+**/data/
+**/data_pets/

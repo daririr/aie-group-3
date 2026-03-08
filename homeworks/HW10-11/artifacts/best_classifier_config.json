@@ -1,0 +1,9 @@
+{
+  "dataset": "SVHN",
+  "architecture": "ResNet18",
+  "transforms": "resnet_imagenet",
+  "seed": 42,
+  "batch_size": 64,
+  "best_experiment": "C4",
+  "test_accuracy": 0.63
+}

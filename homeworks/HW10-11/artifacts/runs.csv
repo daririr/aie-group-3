@@ -1,0 +1,9 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C1,classification,SVHN,42,SimpleCNN,Adam,0.001,3,0.364,,,,,
+C2,classification,SVHN,42,SimpleCNN,Adam,0.001,3,0.204,,,,,
+C3,classification,SVHN,42,ResNet18-head-only,Adam,0.001,3,0.298,,,,,frozen backbone
+C4,classification,SVHN,42,ResNet18-finetune,Adam,1e-4(backbone)/1e-3(head),3,0.642,0.63,,,,fine-tune layer4+fc
+V1,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50,N/A (pretrained),N/A,0,,,,,0.0,basic postprocess
+V2,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50,N/A (pretrained),N/A,0,,,,,0.0,alternative postprocess
+V1,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50,N/A (pretrained),N/A,0,,,,,0.4602690755212516,basic postprocess
+V2,segmentation,OxfordIIITPet,42,DeepLabV3_ResNet50,N/A (pretrained),N/A,0,,,,,0.4602690755212516,alternative postprocess (small components removal)
