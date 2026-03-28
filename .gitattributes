@@ -1,3 +1,11 @@
+# Автоматическая конвертация для текстовых файлов
 * text=auto
-*.sh text eol=lf
-*.bat text eol=crlf
+
+# Для Jupyter ноутбуков — всегда LF
+*.ipynb text eol=lf
+
+# Для Python — всегда LF
+*.py text eol=lf
+
+# Для Markdown — всегда LF
+*.md text eol=lf
