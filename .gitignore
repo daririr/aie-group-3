@@ -78,3 +78,4 @@ homeworks/*/data_pets/
 homeworks/*/data/
 homeworks/*/results/
 homeworks/*/outputs/
+.ipynb_checkpoints/
