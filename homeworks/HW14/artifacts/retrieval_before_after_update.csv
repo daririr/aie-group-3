@@ -1,0 +1,14 @@
+﻿query,retrieved_before,retrieved_after,changed
+Сколько уровней в модели OSI?,"net_01,net_08,net_01,net_10,net_07","net_01,net_08,net_01,net_10,net_07",False
+Какие протоколы входят в TCP/IP?,"net_02,net_09,net_02,net_08,net_06","net_02,net_09,net_12,net_02,net_08",True
+Как обнаруживаются ошибки передачи?,"net_03,net_09,net_07,net_09,net_07","net_03,net_09,net_07,net_09,net_07",False
+Что делают маршрутизаторы?,"net_04,net_02,net_09,net_07,net_02","net_04,net_02,net_09,net_07,net_02",False
+Как приоритезировать голосовой трафик?,"net_05,net_07,net_07,net_10,net_09","net_05,net_07,net_13,net_07,net_10",True
+Как защитить сеть от перехвата?,"net_06,net_09,net_07,net_02,net_02","net_06,net_09,net_07,net_02,net_02",False
+Какие проблемы у беспроводных сетей?,"net_07,net_09,net_02,net_10,net_02","net_07,net_09,net_02,net_12,net_10",True
+Какие протоколы прикладного уровня вы знаете?,"net_07,net_04,net_02,net_02,net_08","net_07,net_04,net_02,net_02,net_08",False
+Какими утилитами диагностировать сеть?,"net_09,net_04,net_08,net_01,net_02","net_09,net_04,net_08,net_12,net_01",True
+Как масштабировать сеть при росте нагрузки?,"net_10,net_02,net_02,net_01,net_04","net_10,net_11,net_12,net_02,net_02",True
+Что такое SDN и зачем она нужна?,"net_06,net_09,net_03,net_07,net_02","net_11,net_06,net_12,net_09,net_03",True
+Какие протоколы используют IoT-устройства?,"net_02,net_06,net_07,net_08,net_02","net_12,net_02,net_06,net_07,net_08",True
+Какие преимущества у 5G для промышленности?,"net_07,net_07,net_02,net_05,net_10","net_13,net_12,net_07,net_07,net_02",True
