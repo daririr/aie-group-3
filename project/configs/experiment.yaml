@@ -1,0 +1,27 @@
+models:
+  CatBoost:
+    iterations: 500
+    learning_rate: 0.05
+    verbose: 0
+  LinearRegression: {}
+  RandomForest:
+    n_estimators: 150
+    n_jobs: -1
+  Stacking:
+    base_models:
+      cb:
+        iterations: 300
+        verbose: 0
+      lr: {}
+      rf:
+        n_estimators: 100
+        n_jobs: -1
+    cv: 5
+    final_estimator: LinearRegression
+    n_jobs: -1
+preprocessing:
+  categorical_encoder: OneHotEncoder
+  handle_unknown: ignore
+  numeric_scaler: StandardScaler
+random_state: 42
+test_size: 0.2
