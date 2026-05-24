@@ -1,0 +1,37 @@
+# Виртуальные окружения
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и артефакты (кроме моделей)
+artifacts/logs/
+artifacts/catboost_info/
+*.log
+
+# Тесты и кеш
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Git и среда
+.git/
+.gitignore
+.env
+!.env.example
+
+# Документация (не нужна в образе)
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Данные (если большие)
+data/*.csv
+!data/.gitkeep
