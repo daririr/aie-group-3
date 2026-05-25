@@ -79,3 +79,18 @@ homeworks/*/data/
 homeworks/*/results/
 homeworks/*/outputs/
 .ipynb_checkpoints/
+
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Кеш pytest
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Артефакты сборки
+.coverage
+htmlcov/
