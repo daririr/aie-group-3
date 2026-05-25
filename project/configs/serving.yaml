@@ -1,0 +1,7 @@
+artifacts_dir: ../artifacts
+risk_thresholds:
+  low: 20.0
+  medium: 35.0
+server:
+  host: 0.0.0.0
+  port: 8000
