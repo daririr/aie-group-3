@@ -1,0 +1,18 @@
+columns:
+  categorical:
+  - X6
+  - X8
+  numeric:
+  - X1
+  - X2
+  - X3
+  - X4
+  - X5
+  - X7
+  targets:
+  - Y1
+  - Y2
+decimal: ','
+dropna_how: all
+separator: ;
+source_path: ../data/ENB2012_data.csv
